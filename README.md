@@ -1,5 +1,7 @@
 # Site Audit
 
+See all [Cowerx open source tools](https://cowerx.dev/open-source/).
+
 Site Audit is an open-source command-line website checker. It opens a page in local Chromium and reports evidence for each check. It looks at page titles and descriptions, headings, image alt text, links, local business details, contact and booking paths, basic page performance, accessibility, trust signals, and technology. Optional law, accounting, and trades checks cover details specific to those sites. A score is a prompt for review, not a guarantee of search rank, accessibility compliance, or sales.
 
 The Site Auditor Chrome extension (Chrome Web Store listing in review) runs the same checks in your browser. See the [Site Auditor page](https://cowerx.dev/site-auditor/) for the product overview.
