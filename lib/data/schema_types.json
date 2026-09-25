@@ -1,0 +1,628 @@
+{
+  "source": "https://schema.org/version/latest/schemaorg-current-https.jsonld",
+  "types": {
+    "AccountingService": {
+      "checks": "vertical_cpa",
+      "family": "professional-services",
+      "type": "cpa"
+    },
+    "AdultEntertainment": {
+      "family": "food-and-venue",
+      "type": "adult-entertainment"
+    },
+    "AmusementPark": {
+      "family": "food-and-venue",
+      "type": "amusement-park"
+    },
+    "AnimalShelter": {
+      "family": "community",
+      "type": "animal-shelter"
+    },
+    "ArchiveOrganization": {
+      "family": "community",
+      "type": "archive-organization"
+    },
+    "ArtGallery": {
+      "family": "food-and-venue",
+      "type": "art-gallery"
+    },
+    "Attorney": {
+      "checks": "vertical_law",
+      "family": "professional-services",
+      "type": "law"
+    },
+    "AutoBodyShop": {
+      "checks": "vertical_trades",
+      "family": "blue-collar-trades",
+      "type": "auto-body-shop"
+    },
+    "AutoDealer": {
+      "family": "retail-and-e-commerce",
+      "type": "auto-dealer"
+    },
+    "AutoPartsStore": {
+      "family": "retail-and-e-commerce",
+      "type": "auto-parts-store"
+    },
+    "AutoRental": {
+      "family": "blue-collar-trades",
+      "type": "auto-rental"
+    },
+    "AutoRepair": {
+      "checks": "vertical_trades",
+      "family": "blue-collar-trades",
+      "type": "auto-repair"
+    },
+    "AutoWash": {
+      "checks": "vertical_trades",
+      "family": "blue-collar-trades",
+      "type": "auto-wash"
+    },
+    "AutomatedTeller": {
+      "family": "professional-services",
+      "type": "automated-teller"
+    },
+    "AutomotiveBusiness": {
+      "family": "blue-collar-trades",
+      "type": null
+    },
+    "Bakery": {
+      "family": "food-and-venue",
+      "type": "bakery"
+    },
+    "BankOrCreditUnion": {
+      "family": "professional-services",
+      "type": "bank-or-credit-union"
+    },
+    "BarOrPub": {
+      "family": "food-and-venue",
+      "type": "bar-or-pub"
+    },
+    "BeautySalon": {
+      "family": "appointment-services",
+      "type": "salon"
+    },
+    "BedAndBreakfast": {
+      "family": "food-and-venue",
+      "type": "bed-and-breakfast"
+    },
+    "BikeStore": {
+      "family": "retail-and-e-commerce",
+      "type": "bike-store"
+    },
+    "BookStore": {
+      "family": "retail-and-e-commerce",
+      "type": "book-store"
+    },
+    "BowlingAlley": {
+      "family": "food-and-venue",
+      "type": "bowling-alley"
+    },
+    "Brewery": {
+      "family": "food-and-venue",
+      "type": "brewery"
+    },
+    "CafeOrCoffeeShop": {
+      "family": "food-and-venue",
+      "type": "cafe-or-coffee-shop"
+    },
+    "Campground": {
+      "family": "food-and-venue",
+      "type": "campground"
+    },
+    "Casino": {
+      "family": "food-and-venue",
+      "type": "casino"
+    },
+    "ChildCare": {
+      "family": "appointment-services",
+      "type": "child-care"
+    },
+    "Church": {
+      "family": "community",
+      "type": "church"
+    },
+    "CivicStructure": {
+      "family": null,
+      "type": null
+    },
+    "ClothingStore": {
+      "family": "retail-and-e-commerce",
+      "type": "clothing-store"
+    },
+    "CollegeOrUniversity": {
+      "family": null,
+      "type": null
+    },
+    "ComedyClub": {
+      "family": "food-and-venue",
+      "type": "comedy-club"
+    },
+    "ComputerStore": {
+      "family": "retail-and-e-commerce",
+      "type": "computer-store"
+    },
+    "ConvenienceStore": {
+      "family": "retail-and-e-commerce",
+      "type": "convenience-store"
+    },
+    "Corporation": {
+      "family": null,
+      "type": null
+    },
+    "CovidTestingFacility": {
+      "family": "appointment-services",
+      "type": "covid-testing-facility"
+    },
+    "DanceSchool": {
+      "family": "lessons-and-instruction",
+      "type": "dance-school"
+    },
+    "DaySpa": {
+      "family": "appointment-services",
+      "type": "day-spa"
+    },
+    "Dentist": {
+      "family": "appointment-services",
+      "type": "dental"
+    },
+    "DepartmentStore": {
+      "family": "retail-and-e-commerce",
+      "type": "department-store"
+    },
+    "Distillery": {
+      "family": "food-and-venue",
+      "type": "distillery"
+    },
+    "DrivingSchool": {
+      "family": "lessons-and-instruction",
+      "type": "driving-school"
+    },
+    "DryCleaningOrLaundry": {
+      "family": "appointment-services",
+      "type": "dry-cleaning-or-laundry"
+    },
+    "EducationalOrganization": {
+      "family": "lessons-and-instruction",
+      "type": null
+    },
+    "Electrician": {
+      "checks": "vertical_trades",
+      "family": "blue-collar-trades",
+      "type": "electrician"
+    },
+    "ElectronicsStore": {
+      "family": "retail-and-e-commerce",
+      "type": "electronics-store"
+    },
+    "EmergencyService": {
+      "family": null,
+      "type": null
+    },
+    "EmploymentAgency": {
+      "family": "professional-services",
+      "type": "employment-agency"
+    },
+    "EntertainmentBusiness": {
+      "family": "food-and-venue",
+      "type": null
+    },
+    "ExerciseGym": {
+      "family": "lessons-and-instruction",
+      "type": "exercise-gym"
+    },
+    "FastFoodRestaurant": {
+      "family": "food-and-venue",
+      "type": "fast-food-restaurant"
+    },
+    "FinancialService": {
+      "family": "professional-services",
+      "type": null
+    },
+    "FireStation": {
+      "family": null,
+      "type": null
+    },
+    "Florist": {
+      "family": "retail-and-e-commerce",
+      "type": "florist"
+    },
+    "FoodEstablishment": {
+      "family": "food-and-venue",
+      "type": null
+    },
+    "FurnitureStore": {
+      "family": "retail-and-e-commerce",
+      "type": "furniture-store"
+    },
+    "GardenStore": {
+      "family": "retail-and-e-commerce",
+      "type": "garden-store"
+    },
+    "GasStation": {
+      "family": "retail-and-e-commerce",
+      "type": "gas-station"
+    },
+    "GeneralContractor": {
+      "checks": "vertical_trades",
+      "family": "blue-collar-trades",
+      "type": "general-contractor"
+    },
+    "GolfCourse": {
+      "family": "food-and-venue",
+      "type": "golf-course"
+    },
+    "GovernmentOffice": {
+      "family": null,
+      "type": null
+    },
+    "GroceryStore": {
+      "family": "retail-and-e-commerce",
+      "type": "grocery-store"
+    },
+    "HVACBusiness": {
+      "checks": "vertical_trades",
+      "family": "blue-collar-trades",
+      "type": "hvac"
+    },
+    "HairSalon": {
+      "family": "appointment-services",
+      "type": "salon"
+    },
+    "HardwareStore": {
+      "family": "retail-and-e-commerce",
+      "type": "hardware-store"
+    },
+    "HealthAndBeautyBusiness": {
+      "family": "appointment-services",
+      "type": null
+    },
+    "HealthClub": {
+      "family": "appointment-services",
+      "type": "health-club"
+    },
+    "HobbyShop": {
+      "family": "retail-and-e-commerce",
+      "type": "hobby-shop"
+    },
+    "HomeAndConstructionBusiness": {
+      "family": "blue-collar-trades",
+      "type": null
+    },
+    "HomeGoodsStore": {
+      "family": "retail-and-e-commerce",
+      "type": "home-goods-store"
+    },
+    "Hospital": {
+      "family": "appointment-services",
+      "type": "hospital"
+    },
+    "Hostel": {
+      "family": "food-and-venue",
+      "type": "hostel"
+    },
+    "Hotel": {
+      "family": "food-and-venue",
+      "type": "hotel"
+    },
+    "HousePainter": {
+      "checks": "vertical_trades",
+      "family": "blue-collar-trades",
+      "type": "house-painter"
+    },
+    "IceCreamShop": {
+      "family": "food-and-venue",
+      "type": "ice-cream-shop"
+    },
+    "IndividualPhysician": {
+      "family": "appointment-services",
+      "type": "individual-physician"
+    },
+    "InsuranceAgency": {
+      "family": "professional-services",
+      "type": "insurance-agency"
+    },
+    "InternetCafe": {
+      "family": "food-and-venue",
+      "type": "internet-cafe"
+    },
+    "JewelryStore": {
+      "family": "retail-and-e-commerce",
+      "type": "jewelry-store"
+    },
+    "LegalService": {
+      "checks": "vertical_law",
+      "family": "professional-services",
+      "type": "law"
+    },
+    "Library": {
+      "family": "community",
+      "type": "library"
+    },
+    "LiquorStore": {
+      "family": "retail-and-e-commerce",
+      "type": "liquor-store"
+    },
+    "LocalBusiness": {
+      "family": null,
+      "type": null
+    },
+    "Locksmith": {
+      "checks": "vertical_trades",
+      "family": "blue-collar-trades",
+      "type": "locksmith"
+    },
+    "LodgingBusiness": {
+      "family": "food-and-venue",
+      "type": null
+    },
+    "MedicalBusiness": {
+      "family": "appointment-services",
+      "type": null
+    },
+    "MedicalClinic": {
+      "family": "appointment-services",
+      "type": "medical-clinic"
+    },
+    "MensClothingStore": {
+      "family": "retail-and-e-commerce",
+      "type": "mens-clothing-store"
+    },
+    "MobileApplication": {
+      "family": "web-apps-and-products",
+      "type": "mobile-app"
+    },
+    "MobilePhoneStore": {
+      "family": "retail-and-e-commerce",
+      "type": "mobile-phone-store"
+    },
+    "Mosque": {
+      "family": "community",
+      "type": "mosque"
+    },
+    "Motel": {
+      "family": "food-and-venue",
+      "type": "motel"
+    },
+    "MotorcycleDealer": {
+      "family": "retail-and-e-commerce",
+      "type": "motorcycle-dealer"
+    },
+    "MotorcycleRepair": {
+      "checks": "vertical_trades",
+      "family": "blue-collar-trades",
+      "type": "motorcycle-repair"
+    },
+    "MovieRentalStore": {
+      "family": "retail-and-e-commerce",
+      "type": "movie-rental-store"
+    },
+    "MovieTheater": {
+      "family": "food-and-venue",
+      "type": "movie-theater"
+    },
+    "MovingCompany": {
+      "checks": "vertical_trades",
+      "family": "blue-collar-trades",
+      "type": "moving-company"
+    },
+    "MusicSchool": {
+      "family": "lessons-and-instruction",
+      "type": "music-school"
+    },
+    "MusicStore": {
+      "family": "retail-and-e-commerce",
+      "type": "music-store"
+    },
+    "NGO": {
+      "family": "community",
+      "type": "nonprofit"
+    },
+    "NailSalon": {
+      "family": "appointment-services",
+      "type": "salon"
+    },
+    "NightClub": {
+      "family": "food-and-venue",
+      "type": "night-club"
+    },
+    "Notary": {
+      "family": "professional-services",
+      "type": "notary"
+    },
+    "OfficeEquipmentStore": {
+      "family": "retail-and-e-commerce",
+      "type": "office-equipment-store"
+    },
+    "OnlineStore": {
+      "family": "retail-and-e-commerce",
+      "type": "online-store"
+    },
+    "Optician": {
+      "family": "appointment-services",
+      "type": "optician"
+    },
+    "Organization": {
+      "family": null,
+      "type": null
+    },
+    "OutletStore": {
+      "family": "retail-and-e-commerce",
+      "type": "outlet-store"
+    },
+    "PawnShop": {
+      "family": "retail-and-e-commerce",
+      "type": "pawn-shop"
+    },
+    "PetStore": {
+      "family": "retail-and-e-commerce",
+      "type": "pet-store"
+    },
+    "Pharmacy": {
+      "family": "retail-and-e-commerce",
+      "type": "pharmacy"
+    },
+    "Physician": {
+      "family": "appointment-services",
+      "type": "physician"
+    },
+    "PhysiciansOffice": {
+      "family": "appointment-services",
+      "type": "physicians-office"
+    },
+    "PlaceOfWorship": {
+      "family": "community",
+      "type": null
+    },
+    "Plumber": {
+      "checks": "vertical_trades",
+      "family": "blue-collar-trades",
+      "type": "plumber"
+    },
+    "PoliceStation": {
+      "family": null,
+      "type": null
+    },
+    "PostOffice": {
+      "family": null,
+      "type": null
+    },
+    "Preschool": {
+      "family": "lessons-and-instruction",
+      "type": "preschool"
+    },
+    "Product": {
+      "family": null,
+      "type": null
+    },
+    "ProfessionalService": {
+      "family": "professional-services",
+      "type": null
+    },
+    "PublicSwimmingPool": {
+      "family": "community",
+      "type": "swimming-pool"
+    },
+    "RadioStation": {
+      "family": null,
+      "type": null
+    },
+    "RealEstateAgent": {
+      "family": "professional-services",
+      "type": "real-estate-agent"
+    },
+    "RecyclingCenter": {
+      "family": "community",
+      "type": "recycling-center"
+    },
+    "Resort": {
+      "family": "food-and-venue",
+      "type": "resort"
+    },
+    "Restaurant": {
+      "family": "food-and-venue",
+      "type": "restaurant"
+    },
+    "RoofingContractor": {
+      "checks": "vertical_trades",
+      "family": "blue-collar-trades",
+      "type": "roofer"
+    },
+    "School": {
+      "family": "lessons-and-instruction",
+      "type": "school"
+    },
+    "SelfStorage": {
+      "family": "appointment-services",
+      "type": "self-storage"
+    },
+    "ShoeStore": {
+      "family": "retail-and-e-commerce",
+      "type": "shoe-store"
+    },
+    "ShoppingCenter": {
+      "family": "retail-and-e-commerce",
+      "type": "shopping-center"
+    },
+    "SkiResort": {
+      "family": "food-and-venue",
+      "type": "ski-resort"
+    },
+    "SoftwareApplication": {
+      "family": "web-apps-and-products",
+      "type": "software"
+    },
+    "SportingGoodsStore": {
+      "family": "retail-and-e-commerce",
+      "type": "sporting-goods-store"
+    },
+    "SportsActivityLocation": {
+      "family": "lessons-and-instruction",
+      "type": null
+    },
+    "SportsClub": {
+      "family": "community",
+      "type": "sports-club"
+    },
+    "StadiumOrArena": {
+      "family": "food-and-venue",
+      "type": "stadium"
+    },
+    "Store": {
+      "family": "retail-and-e-commerce",
+      "type": null
+    },
+    "Synagogue": {
+      "family": "community",
+      "type": "synagogue"
+    },
+    "TattooParlor": {
+      "family": "appointment-services",
+      "type": "tattoo-parlor"
+    },
+    "TelevisionStation": {
+      "family": null,
+      "type": null
+    },
+    "TennisComplex": {
+      "family": "lessons-and-instruction",
+      "type": "tennis-complex"
+    },
+    "TireShop": {
+      "family": "retail-and-e-commerce",
+      "type": "tire-shop"
+    },
+    "TouristInformationCenter": {
+      "family": "food-and-venue",
+      "type": "tourist-information-center"
+    },
+    "ToyStore": {
+      "family": "retail-and-e-commerce",
+      "type": "toy-store"
+    },
+    "TravelAgency": {
+      "family": "professional-services",
+      "type": "travel-agency"
+    },
+    "VacationRental": {
+      "family": "food-and-venue",
+      "type": "vacation-rental"
+    },
+    "WebApplication": {
+      "family": "web-apps-and-products",
+      "type": "web-app"
+    },
+    "WebSite": {
+      "family": null,
+      "type": null
+    },
+    "WholesaleStore": {
+      "family": "retail-and-e-commerce",
+      "type": "wholesale-store"
+    },
+    "Winery": {
+      "family": "food-and-venue",
+      "type": "winery"
+    }
+  }
+}
